@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+:root {
+    --dock-color: #292929;
+    --White: #ffffff;
+    --menu-color: rgb(39,36,43);    
+    --opciones-color: #a66a60;
+    --background-blure: #227cee;
+    --ventana-background: #8af0fc;
+    --ventana-background2: #adf4fd;
+}
