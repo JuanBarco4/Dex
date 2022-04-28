@@ -10,7 +10,7 @@ html {
 }
 
 :root {
-    --dock-color: #292929;
+    --dock-color: rgba(39,36,43,0.85);
     --White: #ffffff;
     --menu-color: rgb(39,36,43);    
     --opciones-color: #a66a60;
