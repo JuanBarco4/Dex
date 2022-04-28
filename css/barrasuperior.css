@@ -1,0 +1,91 @@
+#barra-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: var(--menu-color);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#barra-container .nav {
+    width: 70rem;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#barra-container .nav2 {
+    width: 70rem;
+    padding-right: 2rem;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#barra {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#barra-container li a {
+    text-decoration: none;
+    list-style: none;
+  }
+
+#barra-container li a:active {
+    background: var(--background-blue);
+}
+
+#barra-container li p {
+    font-size: var(--size2);
+    padding: 0.3rem 1rem 0 1rem;
+    color: var(--White);
+    text-decoration: none;
+    font-weight: 300;
+  }
+
+#barra-container li p:active {
+    background: var(--background-blue);
+}
+  
+#barra-container li i {
+    font-size: var(--size2);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: var(--White);
+    text-decoration: none;
+  }
+
+#barra-container li i:active {
+    background: var(--background-blue);
+}
+
+#barra-container .battery {
+    font-size: var(--size2);
+    color: var(--White);
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+#barra-container .pais {
+    position: relative;
+    width: 2rem;
+    height: 1.5rem;
+    top: 0.5rem;
+  }
+
+#barra-container .siri {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    top: 0.2rem;
+    left: -0.01rem;
+  }

@@ -9,16 +9,91 @@
     <link rel="stylesheet" href="css/configuracion.css">
     <link rel="stylesheet" href="css/desktop.css">
     <link rel="stylesheet" href="css/dock.css">
+    <link rel="stylesheet" href="css/barrasuperior.css">
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/e8cd6af3ab.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
     <section class="escritorio">
-        <div id="dock-container">
+
+      <div id="barra-container">
+         <div id="barra">
+            <ul class="nav">
+               <li>
+                  <a href="#"><i class="fa-brands fa-apple"></i></a>
+               </li>
+               <li>
+                  <a href="#"><p>Finder</p></a>
+               </li>
+               <li>
+                  <a href="#"><p>Archivo</p></a>
+               </li>
+               <li>
+                  <a href="#"><p>Editar</p></a>
+               </li>
+               <li>
+                  <a href="#"><p>Ver</p></a>
+               </li>
+               <li>
+                  <a href="#"><p>Historial</p></a>
+               </li>
+               <li>
+                  <a href="#"><p>Favoritos</p></a>
+               </li>
+               <li>
+                  <a href="#"><p>Perfiles</p></a>
+               </li>
+               <li>
+                  <a href="#"><p>Pestaña</p></a>
+               </li>
+               <li>
+                  <a href="#"><p>Ventana</p></a>
+               </li>
+               <li>
+                  <a href="#"><p>Ayuda</p></a>
+               </li>
+            </ul>
+
+            <ul class="nav2">
+               <li>
+                  <a href="#"><i class="fa-brands fa-bluetooth-b"></i></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fa-solid fa-wifi"></i></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fa-solid fa-volume-high"></i></a>
+               </li>
+               <li class="battery">
+                  <p>100 %</p>
+                  <a href="#"><i class="fa-solid fa-battery-full"></i></a>
+               </li>
+               <li>
+                  <a href="#"><img class="pais" src="https://uxwing.com/wp-content/themes/uxwing/download/46-flags-landmarks/spain.png" alt=""></a>
+               </li>
+               <li>
+                  <a href="#"><p>Mar 12:48</p></a>
+               </li>
+               <li>
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+               </li>
+               <li>
+                  <a href="#"><img class="siri" src="https://icon-library.com/images/siri-icon-png/siri-icon-png-25.jpg" alt=""></a>
+               </li>
+               <li>
+                  <a href="#"><i class="bar fa-solid fa-bars-staggered"></i></a>
+               </li>
+            </ul>
+         </div>
+      </div>
+
+      <div id="dock-container">
             <div id="dock">
               <ul>
                  <li>
@@ -90,7 +165,7 @@
                  </li>
               </ul>
             </div>
-           </div>
+      </div>
     </section>
 
     <script src="./js/Main.js" type="module"></script>

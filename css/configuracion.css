@@ -11,10 +11,15 @@ html {
 
 :root {
     --dock-color: rgba(39,36,43,0.85);
+    --background-black: rgba(0,0,0,0.75);
     --White: #ffffff;
-    --menu-color: rgb(39,36,43);    
+    --menu-color: rgba(39,36,43,0.8);    
     --opciones-color: #a66a60;
-    --background-blure: #227cee;
+    --background-blue: #227cee;
     --ventana-background: #8af0fc;
     --ventana-background2: #adf4fd;
+
+    /* TAMAÑO DE FUENTES */
+    --size1: 1.2rem;
+    --size2: 1.5rem;
 }
