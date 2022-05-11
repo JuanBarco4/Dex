@@ -4,3 +4,25 @@
     background-image: url("https://cdn.wallpapersafari.com/97/67/XpfPum.jpg");
     background-size: cover;
 }
+
+.notas_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    margin-top: 4rem;
+    margin-right: 1.5rem;
+    right: 0;
+}
+
+.notas {
+    width: 9rem;
+    height: 9rem;
+}
+
+.programa {
+    text-align: center;
+    font-size: var(--size1);
+    color: var(--background-black);
+}

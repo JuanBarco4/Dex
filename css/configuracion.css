@@ -13,7 +13,10 @@ html {
     --dock-color: rgba(39,36,43,0.85);
     --background-black: rgba(0,0,0,0.75);
     --White: #ffffff;
-    --menu-color: rgba(39,36,43,0.8);    
+    --menu-color: rgba(39,36,43,0.8);
+    --menu2-color: rgba(39,36,43,0.6); 
+    --span-color: rgba(170, 167, 173, 0.2); 
+    --linea-color: rgba(150, 143, 156, 0.8);
     --opciones-color: #a66a60;
     --background-blue: #227cee;
     --ventana-background: #8af0fc;

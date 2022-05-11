@@ -1,0 +1,81 @@
+.padre .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    margin-left: 0.8rem;
+    margin-top: 0.45rem;
+
+    background: var(--menu2-color);
+}
+
+/*.padre .a .menu{
+    display: none;
+}
+
+.padre i:hover .menu{
+    transition: 0.5s;
+    display: block;
+    
+}*/
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--White);
+    font-size: var(--size2);
+    font-weight: 400;
+}
+
+.menu li span {
+    margin: 1rem 0rem 1rem 1.5rem;
+    top: 0.5rem;
+    position: relative;
+}
+
+.linea {
+    width: 100%;
+    height: 0.1rem;
+    background: var(--linea-color);
+    position: absolute;
+    margin-top: 1.3rem;
+}
+
+.span_fondo {
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    border-radius: 1rem;
+    background: var(--span-color);
+    font-size: var(--size1) ;
+    left: 3.5rem;
+    position: absolute;
+}
+
+.triangulo {
+    top: 8rem;   
+    right: 0.5rem;
+    position: absolute;
+}
+
+.grupo {
+    font-size: 1.2rem;
+    position: absolute;
+    left: 6.2rem;
+}
+
+.grupo2 {
+    font-size: 1.2rem;
+    position: absolute;
+    left: 1.5rem;
+}
+
+.command {
+    font-size: 1.2rem;
+  }

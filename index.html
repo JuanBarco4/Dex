@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/desktop.css">
     <link rel="stylesheet" href="css/dock.css">
     <link rel="stylesheet" href="css/barrasuperior.css">
+    <link rel="stylesheet" href="css/menu.css">
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,12 +22,60 @@
 <body>
     
     <section class="escritorio">
-
       <div id="barra-container">
          <div id="barra">
             <ul class="nav">
                <li>
-                  <a href="#"><i class="fa-brands fa-apple"></i></a>
+                  <div class="padre">
+                     <div class="a">
+                        <i class="fa-brands fa-apple">
+                           <div class="menu">
+                              <ul>
+                                 <li>
+                                    <a href=""><span>Acerca de esta Mac</span></a>
+                                    <div class="linea"></div>
+                                 </li>
+                                 <li>
+                                    <br>
+                                    <a href=""><span>Preferencias del Sistema...</span></a>
+                                 </li>
+                                 <li>
+                                    <a href=""><span>App Store...</span><span class="span_fondo">2 actualizaciones</span></a>
+                                    <div class="linea"></div>
+                                 </li>
+                                 <li>
+                                    <br>
+                                    <a href=""><span>Elementos recientes</span><i class="fa-solid fa-caret-right triangulo"></i></a>
+                                    <div class="linea"></div>
+                                 </li>
+                                 <li>
+                                    <br>
+                                    <a href=""><span>Forzar salida de Finder</span><span class="grupo2">┤ ⇧ ⌘ ⟲</span></a>
+                                    <div class="linea"></div>
+                                 </li>
+                                 <li>
+                                    <br>
+                                    <a href=""><span>Reposo</span></a>
+                                 </li>
+                                 <li>
+                                    <a href=""><span>Reiniciar...</span></a>
+                                 </li>
+                                 <li>
+                                    <a href=""><span>Apagar equipo...</span></a>
+                                    <div class="linea"></div>
+                                 </li>
+                                 <li>
+                                    <br>
+                                    <a href=""><span>Bloquear pantalla</span><span class="grupo">^ ⌘ Q</span></a>
+                                 </li>
+                                 <li>
+                                    <a href=""><span>Cerrar sesión de OWNER...</span><span class="command">⇧ ⌘ Q</span></a>
+                                 </li>
+                              </ul>
+                           </div> 
+                        </i> 
+                     </div>
+                  </div>
                </li>
                <li>
                   <a href="#"><p>Finder</p></a>
@@ -160,13 +209,17 @@
                     <a href="#"><img src="https://www.pngplay.com/wp-content/uploads/8/Vertical-Line-No-Background.png"/></a>
                  </li>
                  <li>
-                    <span>Basura</span>
+                    <span>Papelera</span>
                     <a href="#"><img src="https://www.icons101.com/icon_ico/id_72063/trashfull.ico"/></a>
                  </li>
               </ul>
             </div>
       </div>
-    </section>
+      <div class="notas_container">
+         <a href="#"><img class="notas" src="https://878463.smushcdn.com/1984689/wp-content/uploads/2020/07/StickiesIcon-1-284x284.png?lossy=1&strip=1&webp=1"/></a>
+         <span class="programa">Notas Adhesivas</span>
+      </div>
+   </section>
 
     <script src="./js/Main.js" type="module"></script>
 </body>
