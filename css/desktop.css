@@ -3,6 +3,7 @@
     height: 100vh;
     background-image: url("https://cdn.wallpapersafari.com/97/67/XpfPum.jpg");
     background-size: cover;
+    box-sizing: border-box;
 }
 
 .notas_container {
