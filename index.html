@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dex</title>
 
+    <!-- CSS Links -->
     <link rel="stylesheet" href="css/configuracion.css">
     <link rel="stylesheet" href="css/desktop.css">
     <link rel="stylesheet" href="css/dock.css">
     <link rel="stylesheet" href="css/barrasuperior.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/ventana.css">
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,9 +29,8 @@
             <ul class="nav">
                <li>
                   <div class="padre">
-                     <div class="a">
-                        <i class="fa-brands fa-apple">
-                           <div class="menu">
+                        <div class="menu" id="menu">
+                           <div class="menu_container">
                               <ul>
                                  <li>
                                     <a href=""><span>Acerca de esta Mac</span></a>
@@ -72,9 +73,9 @@
                                     <a href=""><span>Cerrar sesión de OWNER...</span><span class="command">⇧ ⌘ Q</span></a>
                                  </li>
                               </ul>
-                           </div> 
-                        </i> 
-                     </div>
+                           </div>
+                        </div>  
+                        <i class="fa-brands fa-apple" id="ico_menu"></i>
                   </div>
                </li>
                <li>
@@ -215,12 +216,28 @@
               </ul>
             </div>
       </div>
-      <div class="notas_container">
-         <a href="#"><img class="notas" src="https://878463.smushcdn.com/1984689/wp-content/uploads/2020/07/StickiesIcon-1-284x284.png?lossy=1&strip=1&webp=1"/></a>
-         <span class="programa">Notas Adhesivas</span>
+      <div class="padre2">
+         <div class="notas_container">
+            <a href="#" >
+               <img class="notas" id="ico_ventana" src="https://878463.smushcdn.com/1984689/wp-content/uploads/2020/07/StickiesIcon-1-284x284.png?lossy=1&strip=1&webp=1"/>
+               <span class="programa">Notas Adhesivas</span>
+            </a>
+         </div>
+         <div class="ventana" id="ventana">
+            <div class="ventana_container">
+               <div class="barra">
+                  <a href=""><i class="fa-solid fa-square" id="cuadro"></i></a>
+                  <div class="iconos">
+                     <a href=""><i class="fa-solid fa-caret-left" id="triangulo"></i></a>
+                     <a href=""><i class="fa-solid fa-window-maximize" id="maximize"></i></a>  
+                  </div>
+               </div>
+               <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+         </div>
       </div>
    </section>
 
-    <script src="./js/Main.js" type="module"></script>
+    <script src="./js/Main.js"></script>
 </body>
 </html>

@@ -1,27 +1,25 @@
-.padre .menu {
+.menu {
+    display: none;
+}
+
+.padre .menu_container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 
     position: absolute;
     width: 25rem;
-    height: 25rem;
+    height: 26.5rem;
     border-radius: 0 0 0.5rem 0.5rem;
     margin-left: 0.8rem;
-    margin-top: 0.45rem;
+    margin-top: 2.5rem;
 
     background: var(--menu2-color);
 }
 
-/*.padre .a .menu{
-    display: none;
-}
-
-.padre i:hover .menu{
-    transition: 0.5s;
+.activar {
     display: block;
-    
-}*/
+}
 
 .menu li{
     list-style: none;
@@ -59,7 +57,7 @@
 }
 
 .triangulo {
-    top: 8rem;   
+    top: 8.7rem;   
     right: 0.5rem;
     position: absolute;
 }
