@@ -28,8 +28,8 @@
 }
 
 .notas {
-    width: 9rem;
-    height: 9rem;
+    width: 9rem !important;
+    height: 9rem !important;
     align-self: center;
 }
 

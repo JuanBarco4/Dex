@@ -75,7 +75,8 @@
                               </ul>
                            </div>
                         </div>  
-                        <i class="fa-brands fa-apple" id="ico_menu"></i>
+                        <i class="fa-brands fa-apple ico_menu activar" id="ico_menu" onclick="activar();" type="button"></i>
+                        <i class="fa-brands fa-apple ico_menu2" id="ico_menu2" onclick="desactivar();" type="button"></i>
                   </div>
                </li>
                <li>
@@ -209,6 +210,10 @@
                  <li>
                     <a href="#"><img src="https://www.pngplay.com/wp-content/uploads/8/Vertical-Line-No-Background.png"/></a>
                  </li>
+                 <li class="note" id="note" type="button" onclick="noteActive();">
+                  <span>Notas Ahesivas</span>
+                  <a href="#"><img src="https://878463.smushcdn.com/1984689/wp-content/uploads/2020/07/StickiesIcon-1-284x284.png?lossy=1&strip=1&webp=1"/></a>
+                 </li>
                  <li>
                     <span>Papelera</span>
                     <a href="#"><img src="https://www.icons101.com/icon_ico/id_72063/trashfull.ico"/></a>
@@ -219,17 +224,18 @@
       <div class="padre2">
          <div class="notas_container">
             <a href="#" >
-               <img class="notas" id="ico_ventana" src="https://878463.smushcdn.com/1984689/wp-content/uploads/2020/07/StickiesIcon-1-284x284.png?lossy=1&strip=1&webp=1"/>
+               <img class="notas" id="ico_ventana" type="button" onclick="activacion();" src="https://878463.smushcdn.com/1984689/wp-content/uploads/2020/07/StickiesIcon-1-284x284.png?lossy=1&strip=1&webp=1"/>
                <span class="programa">Notas Adhesivas</span>
             </a>
          </div>
          <div class="ventana" id="ventana">
-            <div class="ventana_container">
+            <div class="ventana_container" id="ventana_container">
                <div class="barra">
-                  <a href=""><i class="fa-solid fa-square" id="cuadro"></i></a>
+                  <i class="fa-solid fa-square" id="cuadro" type="button" onclick="cerrar();"></i>
                   <div class="iconos">
-                     <a href=""><i class="fa-solid fa-caret-left" id="triangulo"></i></a>
-                     <a href=""><i class="fa-solid fa-window-maximize" id="maximize"></i></a>  
+                     <i class="fa-solid fa-caret-left" id="triangulo" type="button" onclick="desactivacion();"></i>
+                     <i class="fa-solid fa-window-maximize maxi" id="maximize" type="button" onclick="maxi();"></i>
+                     <i class="fa-solid fa-window-maximize mini" id="minimize" type="button" onclick="mini();"></i>
                   </div>
                </div>
                <textarea name="" id="" cols="30" rows="10"></textarea>
@@ -238,6 +244,6 @@
       </div>
    </section>
 
-    <script src="./js/Main.js"></script>
+    <script src="./js/Main.js" type="text/javascript"></script>
 </body>
 </html>

@@ -62,6 +62,24 @@
     cursor: pointer;
   }
 
+  #barra-container li .ico_menu {
+    font-size: var(--size2);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: var(--White);
+    text-decoration: none;
+    cursor: pointer;
+    display: none;
+  }
+
+  #barra-container li .ico_menu2 {
+    font-size: var(--size2);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: var(--White);
+    text-decoration: none;
+    cursor: pointer;
+    display: none;
+  }
+
 #barra-container li i:active {
     background: var(--background-blue);
 }

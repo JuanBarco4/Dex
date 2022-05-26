@@ -18,7 +18,11 @@
 }
 
 .activar {
-    display: block;
+    display: block !important;
+}
+
+.desactivar {
+    display: none;
 }
 
 .menu li{
